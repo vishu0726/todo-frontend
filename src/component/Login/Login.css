@@ -1,0 +1,38 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin:10% 25% 0 25%;
+    height: 16rem;
+    border: 1px solid black;
+    background-color: palevioletred;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 3px 4px goldenrod;
+}
+.login-container > * {
+    margin: 1rem;
+}
+
+.login-container > h1 {
+    color: goldenrod;
+    text-shadow: 4px 3px 2px black;
+    font-size: 3rem;
+}
+.login-container > button {
+    cursor: pointer;
+    border: none;
+    background-color: blue;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 0.4rem;
+}
+.login-container > button:hover{
+    background-color: white;
+    color: blue;
+}
+.login-container > input{
+    border-style: none;
+    padding:0.3rem;
+}

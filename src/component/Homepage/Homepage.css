@@ -1,0 +1,39 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 15rem;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-flow: column;
+    margin: 10% 0 0 22%;
+    background-color: palegoldenrod;
+    box-shadow: 2px 2px 4px 3px tomato ;
+}
+.home-container > * {
+    margin: 0.6rem;
+}
+.home-container > h1 {
+    color: tomato;
+    text-shadow: 4px 3px 2px black;
+    font-size: 3rem;
+    background-color: palegoldenrod;
+}
+.home-container > button {
+    cursor: pointer;
+    border: none;
+    background-color: blue;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 0.4rem;
+}
+.home-container > button:hover{
+    background-color: white;
+    color: blue;
+}
+.home-container > div {
+    text-decoration: underline;
+    background-color: palegoldenrod;
+}
